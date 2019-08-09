@@ -1,0 +1,37 @@
+body{
+  background: lightblue;
+  text-align: center
+}
+
+.wrapper{
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+
+img{
+  border: 1px solid black;
+}
+
+
+.circle{
+width: 200px;
+height: 200px;
+border: 1px solid black;
+line-height:12;
+margin: 60px auto;
+background-color: black;
+color: white;
+border-radius: 100px;
+cursor: pointer;
+transition: 0.5s ;
+}
+
+
+.circle:hover{
+background: blue;
+transform: scale(2) rotateY(360deg) rotateX(360deg);
+
+
+}
